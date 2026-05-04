@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Agri ML Dashboard</title>
+<link rel='stylesheet' href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'/><link rel='stylesheet' href='/static/style.css'/></head>
+<body><div class='container'><div id='map'></div><div class='sidebar'>
+<h2>Controls</h2><p id='coords'>Click map to select coordinates</p>
+<label>Model<select id='model'><option>random_forest</option><option>logistic_regression</option><option>knn</option><option>svm</option><option>decision_tree</option></select></label>
+<div id='sliders'></div><button id='predictBtn'>Predict</button><a href='/graphs'>View Graphs</a>
+<pre id='result'></pre></div></div>
+<script src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js'></script><script src='/static/app.js'></script></body></html>
